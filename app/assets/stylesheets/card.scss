@@ -1,0 +1,33 @@
+.card{
+  height: 200px;
+  background-color: rgba(240, 240, 240, 0.8);
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(120,94,77,0.65);
+  -moz-box-shadow: 1px 1px 1px 1px rgba(120,94,77,0.65);
+  box-shadow: 1px 1px 1px 1px rgba(120,94,77,0.65);
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+.card-content{
+  padding: 0 40px;
+}
+.card hr{
+  width: 100px;
+  border-color: black;
+}
+.card-buttons{
+  padding-bottom: 20px;
+}
+.ellipsis{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   line-height: 15px;
+   max-height: 30px;
+
+}

@@ -1,0 +1,13 @@
+<div class="background">
+  <div class="container text-center">
+
+    <div class="wrapper">
+      <h1><%= @article.title %></h1>
+      <p><%= @article.content %></p>
+
+
+      <%= link_to 'Back to Home', articles_path, :class => "btn btn-success" %>
+      <%= link_to 'Edit this article', edit_article_path(@article), :class => "btn btn-warning" %>
+    </div>
+  </div>
+</div>

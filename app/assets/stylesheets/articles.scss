@@ -1,0 +1,25 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h3>a{
+  color: black;
+}
+h3>a:hover{
+  text-decoration: none;
+}
+.wrapper{
+  background-color: rgba(240, 240, 240, 0.8);
+  padding: 50px 50px;
+  margin: 20px 340px;
+  border-radius: 10px;
+}
+.background{
+  background-image: url(https://unsplash.it/900/600/?random);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
